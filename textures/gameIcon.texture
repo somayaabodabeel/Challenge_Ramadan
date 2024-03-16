@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "gameIcon",
+  "identifier": "texture:3735623-25541976-c4d0-4fb6-8496-9120368f16e1",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "04979a30eb98ffc13fb91babf151a77f",
+  "assetLocator": "textures/Jumper_thumbnail.jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 796,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "04979a30eb98ffc13fb91babf151a77f",
+      "colorCount": 79028,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 4.221255579095762,
+      "pixelsHigh": 1024,
+      "pixelsWide": 796
+    }
+  ]
+}

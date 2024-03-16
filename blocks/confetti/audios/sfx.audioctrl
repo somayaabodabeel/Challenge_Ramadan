@@ -1,0 +1,8 @@
+{
+  "modelName": "playback_controller_model",
+  "name": "sfx",
+  "identifier": "playback_controller_model:405832-2d6f2294-4122-4a07-a7ee-c187adb34a44",
+  "needsContinuousLooping": false,
+  "needsContinuousPlaying": false,
+  "soundIdentifier": "sound:679522-393ce27e-5967-4ac8-a957-c530affe82ca"
+}

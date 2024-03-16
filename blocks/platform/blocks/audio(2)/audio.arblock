@@ -1,0 +1,2107 @@
+{
+  "id" : "10696774dbe88d247714c30a0d91aafc742f6f4",
+  "cameraNear" : 0.009999999776482582,
+  "creatorPlatform" : "macosx",
+  "version" : {
+    "dev" : 0,
+    "patch" : 0,
+    "prod" : 135
+  },
+  "allowYogaMigration" : true,
+  "creatorIdentifier" : "com.facebook.arstudio.skylight",
+  "isBlockDocument" : true,
+  "modelName" : "document",
+  "cameraFar" : 50,
+  "revision" : "10696784dbe88d247714c30a0d91aafc742f6f4",
+  "creatorFileVersion" : {
+    "dev" : 2,
+    "patch" : 0,
+    "prod" : 123
+  },
+  "identifier" : "document:1069679-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+  "objects" : [
+    {
+      "modelName" : "assets_config_model",
+      "categoriesOrder" : [
+
+      ],
+      "identifier" : "assets_config_model:2126410-f1f4833c-e605-4a05-9b90-a639e5652126"
+    }
+  ],
+  "children" : [
+    {
+      "modelName" : "fonts",
+      "identifier" : "fonts:1069681-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "generic_m_l_models_model",
+      "identifier" : "generic_m_l_models_model:1069683-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "textures",
+      "identifier" : "textures:1069685-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "materials",
+      "identifier" : "materials:1069687-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "prefabs",
+      "identifier" : "prefabs:1069689-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "3_d_objects_model",
+      "identifier" : "3_d_objects_model:1069691-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "hidden" : false,
+      "cameraVisibility" : 3,
+      "transform" : {
+        "x" : 0,
+        "sz" : 1,
+        "y" : 0,
+        "rz" : 0,
+        "sx" : 1,
+        "z" : 0,
+        "rx" : 0,
+        "sy" : 1,
+        "ry" : 0
+      },
+      "children" : [
+        {
+          "hidden" : false,
+          "cameraVisibility" : 3,
+          "tags" : [
+
+          ],
+          "children" : [
+            {
+              "cameraVisibility" : 3,
+              "projectionType" : 0,
+              "modelName" : "camera",
+              "tags" : [
+
+              ],
+              "transform" : {
+                "x" : 0,
+                "sz" : 1,
+                "y" : 0,
+                "rz" : 0,
+                "sx" : 1,
+                "z" : 0,
+                "rx" : 0,
+                "sy" : 1,
+                "ry" : 0
+              },
+              "outputVisibility" : 3,
+              "identifier" : "camera:1069757-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+              "updateSource" : 2,
+              "animationMask" : {
+                "scale" : false,
+                "position" : false,
+                "rotation" : false
+              },
+              "children" : [
+                {
+                  "hidden" : false,
+                  "cameraVisibility" : 3,
+                  "tags" : [
+
+                  ],
+                  "children" : [
+                    {
+                      "cameraVisibility" : 3,
+                      "modelName" : "ambient_light_source_model",
+                      "tags" : [
+
+                      ],
+                      "transform" : {
+                        "x" : 0,
+                        "sz" : 1,
+                        "y" : 0,
+                        "rz" : 0,
+                        "sx" : 1,
+                        "z" : 0,
+                        "rx" : 0,
+                        "sy" : 1,
+                        "ry" : 0
+                      },
+                      "color" : 4294967295,
+                      "identifier" : "ambient_light_source_model:1069771-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+                      "outputVisibility" : 3,
+                      "animationMask" : {
+                        "scale" : false,
+                        "position" : false,
+                        "rotation" : false
+                      },
+                      "hidden" : false,
+                      "layerIdentifier" : "layer:1069769-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+                      "name" : "ambientLight0",
+                      "intensity" : 0.20000000298023224
+                    },
+                    {
+                      "name" : "directionalLight0",
+                      "shadowBias" : 0,
+                      "shadowFrustumSize" : 0.5,
+                      "cameraVisibility" : 3,
+                      "modelName" : "directional_light_source_model",
+                      "shadowFrustumDepth" : 1,
+                      "shadowNear" : 0.050000000000000003,
+                      "tags" : [
+
+                      ],
+                      "color" : 4294967295,
+                      "identifier" : "directional_light_source_model:1069773-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+                      "outputVisibility" : 3,
+                      "animationMask" : {
+                        "scale" : false,
+                        "position" : false,
+                        "rotation" : false
+                      },
+                      "shadowStrength" : 1,
+                      "transform" : {
+                        "x" : 0.029999999999999999,
+                        "sz" : 1,
+                        "y" : 0.25,
+                        "rz" : 0,
+                        "sx" : 1,
+                        "z" : 0.29999999999999999,
+                        "rx" : -0.78539816339744828,
+                        "sy" : 1,
+                        "ry" : 0.087266462599716474
+                      },
+                      "hidden" : false,
+                      "shadowTextureSize" : 256,
+                      "layerIdentifier" : "layer:1069769-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+                      "castShadow" : false,
+                      "intensity" : 0.80000001192092896
+                    }
+                  ],
+                  "transform" : {
+                    "x" : 0,
+                    "sz" : 1,
+                    "y" : 0,
+                    "rz" : 0,
+                    "sx" : 1,
+                    "z" : -0.53612667322158813,
+                    "rx" : 0,
+                    "sy" : 1,
+                    "ry" : 0
+                  },
+                  "identifier" : "focalDistance:1069759-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+                  "animationMask" : {
+                    "scale" : false,
+                    "position" : false,
+                    "rotation" : false
+                  },
+                  "layerIdentifier" : "layer:1069769-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+                  "modelName" : "focalDistance",
+                  "name" : "Focal Distance",
+                  "outputVisibility" : 3
+                }
+              ],
+              "hidden" : false,
+              "layerIdentifier" : "layer:1069769-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+              "name" : "Camera"
+            }
+          ],
+          "transform" : {
+            "x" : 0,
+            "sz" : 1,
+            "y" : 0,
+            "rz" : 0,
+            "sx" : 1,
+            "z" : 0,
+            "rx" : 0,
+            "sy" : 1,
+            "ry" : 0
+          },
+          "identifier" : "device:1069755-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+          "animationMask" : {
+            "scale" : false,
+            "position" : false,
+            "rotation" : false
+          },
+          "layerIdentifier" : "layer:1069769-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+          "modelName" : "device",
+          "name" : "Device",
+          "outputVisibility" : 3
+        },
+        {
+          "hidden" : false,
+          "cameraVisibility" : 3,
+          "tags" : [
+
+          ],
+          "children" : [
+            {
+              "identifier" : "block_inputs_model:1069763-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+              "modelName" : "block_inputs_model",
+              "children" : [
+                {
+                  "defaultValue" : {
+                    "type" : 4,
+                    "value" : false
+                  },
+                  "portTag" : 4975113150587342824,
+                  "modelName" : "block_port_model",
+                  "identifier" : "block_port_model:3169983-655fcbaf-e396-4226-8c13-f2aea874703d",
+                  "children" : [
+                    {
+                      "modelName" : "port_value_type_info_model",
+                      "identifier" : "port_value_type_info_model:3169985-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "rawSubtype" : 1,
+                      "type" : 4
+                    },
+                    {
+                      "modelName" : "port_widget_style_info_model",
+                      "widgetStyle" : 0,
+                      "identifier" : "port_widget_style_info_model:3169987-655fcbaf-e396-4226-8c13-f2aea874703d"
+                    }
+                  ],
+                  "name" : "Play"
+                }
+              ]
+            },
+            {
+              "modelName" : "block_outputs_model",
+              "identifier" : "block_outputs_model:1069765-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+            },
+            {
+              "modelName" : "block_metadata_model",
+              "displayName" : "Block",
+              "description" : "",
+              "identifier" : "block_metadata_model:1069767-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+            },
+            {
+              "animationMask" : {
+                "scale" : false,
+                "position" : false,
+                "rotation" : false
+              },
+              "volumeMax" : 1,
+              "volumeMin" : 0,
+              "backedByPlaybackController" : true,
+              "volume" : 1,
+              "hidden" : false,
+              "tags" : [
+
+              ],
+              "modelName" : "audiosource",
+              "transform" : {
+                "x" : 0,
+                "sz" : 1,
+                "y" : 0,
+                "rz" : 0,
+                "sx" : 1,
+                "z" : 0,
+                "rx" : 0,
+                "sy" : 1,
+                "ry" : 0
+              },
+              "children" : [
+                {
+                  "modelName" : "audioTransforms",
+                  "identifier" : "audioTransforms:3169975-655fcbaf-e396-4226-8c13-f2aea874703d"
+                }
+              ],
+              "name" : "speaker0",
+              "type" : 5,
+              "identifier" : "audiosource:3169973-655fcbaf-e396-4226-8c13-f2aea874703d",
+              "distanceToMinVolume" : 4,
+              "distanceToMaxVolume" : 0.20000000000000001,
+              "playbackControllerIdentifier" : "playback_controller_model:3169971-655fcbaf-e396-4226-8c13-f2aea874703d",
+              "ambient" : false,
+              "cameraVisibility" : 3,
+              "needsContinuousLooping" : false,
+              "needsContinuousPlaying" : false,
+              "vocoderInput" : false,
+              "outputVisibility" : 3,
+              "sound" : "sound:619346-83a2781f-a3a3-4998-b6ec-3c2a2005bbc1",
+              "layerIdentifier" : "layer:1069769-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+            }
+          ],
+          "transform" : {
+            "x" : 0,
+            "sz" : 1,
+            "y" : 0,
+            "rz" : 0,
+            "sx" : 1,
+            "z" : 0,
+            "rx" : 0,
+            "sy" : 1,
+            "ry" : 0
+          },
+          "identifier" : "block_root_object_model:1069761-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+          "animationMask" : {
+            "scale" : false,
+            "position" : false,
+            "rotation" : false
+          },
+          "layerIdentifier" : "layer:1069769-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+          "modelName" : "block_root_object_model",
+          "name" : "Block Root",
+          "outputVisibility" : 3
+        }
+      ],
+      "identifier" : "scene:1069693-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "animationMask" : {
+        "scale" : false,
+        "position" : false,
+        "rotation" : false
+      },
+      "modelName" : "scene",
+      "tags" : [
+
+      ],
+      "outputVisibility" : 3
+    },
+    {
+      "identifier" : "layers:1069695-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "modelName" : "layers",
+      "children" : [
+        {
+          "hidden" : false,
+          "name" : "layer0",
+          "modelName" : "layer",
+          "generationIndex" : 0,
+          "identifier" : "layer:1069769-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+          "color" : 4287394506
+        }
+      ]
+    },
+    {
+      "modelName" : "animations_model",
+      "identifier" : "animations_model:1069697-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "asset_collections_model",
+      "identifier" : "asset_collections_model:1069699-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "neural_networks_model",
+      "identifier" : "neural_networks_model:1069701-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "components_model",
+      "identifier" : "components_model:1069703-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "identifier" : "patch_graphs_model:1069705-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "modelName" : "patch_graphs_model",
+      "children" : [
+        {
+          "modelName" : "patch_graph_model",
+          "identifier" : "patch_graph_model:1161897-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+          "children" : [
+            {
+              "modelName" : "patch_model",
+              "identifier" : "patch_model:1161899-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+              "children" : [
+                {
+                  "identifier" : "patches_model:1161901-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+                  "modelName" : "patches_model",
+                  "children" : [
+                    {
+                      "children" : [
+                        {
+                          "modelName" : "patches_model",
+                          "identifier" : "patches_model:3170191-655fcbaf-e396-4226-8c13-f2aea874703d"
+                        },
+                        {
+                          "modelName" : "connections_model",
+                          "identifier" : "connections_model:3170193-655fcbaf-e396-4226-8c13-f2aea874703d"
+                        },
+                        {
+                          "identifier" : "patch_input_ports_model:3170195-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_input_ports_model",
+                          "children" : [
+                            {
+                              "defaultValue" : {
+                                "type" : 6,
+                                "value" : ""
+                              },
+                              "portTag" : 1,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170205-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170213-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 0,
+                                  "type" : 6
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170215-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : true,
+                                  "portName" : "name",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170217-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : true
+                                }
+                              ],
+                              "name" : "Name"
+                            },
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 2,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170219-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170227-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170229-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : true,
+                                  "portName" : "type",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170231-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : true
+                                }
+                              ],
+                              "name" : "Type"
+                            },
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 3,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170233-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170241-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170243-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : true,
+                                  "portName" : "value",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170245-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : true,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : true
+                                }
+                              ],
+                              "name" : "Value"
+                            },
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 4,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170247-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170255-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170257-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : true,
+                                  "portName" : "minValue",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170259-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : true
+                                }
+                              ],
+                              "name" : "Min Value"
+                            },
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 5,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170261-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170269-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170271-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : true,
+                                  "portName" : "maxValue",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170273-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : true
+                                }
+                              ],
+                              "name" : "Max Value"
+                            }
+                          ]
+                        },
+                        {
+                          "identifier" : "patch_output_ports_model:3170197-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_output_ports_model",
+                          "children" : [
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 100,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170275-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170283-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170285-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : false,
+                                  "portName" : "output",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170287-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : true,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : false
+                                }
+                              ],
+                              "name" : "Input Value"
+                            }
+                          ]
+                        },
+                        {
+                          "hidden" : true,
+                          "position" : [
+                            0,
+                            0
+                          ],
+                          "children" : [
+                            {
+                              "modelName" : "patch_library_metadata_model",
+                              "excludeFromInsertMenu" : true,
+                              "identifier" : "patch_library_metadata_model:3170203-655fcbaf-e396-4226-8c13-f2aea874703d"
+                            }
+                          ],
+                          "internalGroup" : false,
+                          "identifier" : "patch_metadata_model:3170201-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_metadata_model",
+                          "preferredGenericType" : 0
+                        }
+                      ],
+                      "propertyIdentifier" : "blockInputInside",
+                      "prototype" : "builtin.blockInputInside",
+                      "identifier" : "patch_model:3170189-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "modelName" : "patch_model",
+                      "name" : "Block Input",
+                      "dataModelIdentifier" : "block_port_model:3169983-655fcbaf-e396-4226-8c13-f2aea874703d"
+                    },
+                    {
+                      "propertyIdentifier" : "blockInputInside",
+                      "dataModelIdentifier" : "block_root_object_model:1069761-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+                      "modelName" : "patch_model",
+                      "identifier" : "patch_model:3170489-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "children" : [
+                        {
+                          "identifier" : "patches_model:3170491-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patches_model",
+                          "children" : [
+                            {
+                              "modelName" : "patch_model",
+                              "prototype" : "builtin.group.input",
+                              "identifier" : "patch_model:3170525-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "patches_model",
+                                  "identifier" : "patches_model:3170527-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "modelName" : "connections_model",
+                                  "identifier" : "connections_model:3170529-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "identifier" : "patch_input_ports_model:3170531-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "modelName" : "patch_input_ports_model",
+                                  "children" : [
+                                    {
+                                      "defaultValue" : {
+                                        "type" : 4,
+                                        "value" : false
+                                      },
+                                      "portTag" : 1,
+                                      "modelName" : "port_model",
+                                      "identifier" : "port_model:3170537-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                      "children" : [
+                                        {
+                                          "modelName" : "port_value_type_info_model",
+                                          "identifier" : "port_value_type_info_model:3170545-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                          "rawSubtype" : 1,
+                                          "type" : 4
+                                        },
+                                        {
+                                          "modelName" : "port_widget_style_info_model",
+                                          "widgetStyle" : 0,
+                                          "identifier" : "port_widget_style_info_model:3170547-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                        },
+                                        {
+                                          "hidden" : true,
+                                          "preferValueOverTitle" : false,
+                                          "gatekeeperName" : "",
+                                          "hiddenValue" : false,
+                                          "hiddenConnection" : true,
+                                          "identifier" : "port_metadata_model:3170549-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                          "isVariant" : true,
+                                          "modelName" : "port_metadata_model",
+                                          "isParameter" : false
+                                        }
+                                      ],
+                                      "name" : "Play"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "identifier" : "patch_output_ports_model:3170533-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "modelName" : "patch_output_ports_model",
+                                  "children" : [
+                                    {
+                                      "defaultValue" : {
+                                        "type" : 4,
+                                        "value" : false
+                                      },
+                                      "portTag" : 2,
+                                      "modelName" : "port_model",
+                                      "identifier" : "port_model:3170551-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                      "children" : [
+                                        {
+                                          "modelName" : "port_value_type_info_model",
+                                          "identifier" : "port_value_type_info_model:3170559-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                          "rawSubtype" : 1,
+                                          "type" : 4
+                                        },
+                                        {
+                                          "modelName" : "port_widget_style_info_model",
+                                          "widgetStyle" : 0,
+                                          "identifier" : "port_widget_style_info_model:3170561-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                        },
+                                        {
+                                          "hidden" : false,
+                                          "preferValueOverTitle" : false,
+                                          "gatekeeperName" : "",
+                                          "hiddenValue" : false,
+                                          "hiddenConnection" : false,
+                                          "identifier" : "port_metadata_model:3170563-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                          "isVariant" : true,
+                                          "modelName" : "port_metadata_model",
+                                          "isParameter" : false
+                                        }
+                                      ],
+                                      "name" : "Play"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "position" : [
+                                    0,
+                                    0
+                                  ],
+                                  "preferredGenericType" : 0,
+                                  "modelName" : "patch_metadata_model",
+                                  "identifier" : "patch_metadata_model:3170535-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "internalGroup" : false,
+                                  "hidden" : false
+                                }
+                              ],
+                              "name" : "Play"
+                            },
+                            {
+                              "modelName" : "patch_model",
+                              "prototype" : "builtin.group.output",
+                              "identifier" : "patch_model:3170565-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "patches_model",
+                                  "identifier" : "patches_model:3170567-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "modelName" : "connections_model",
+                                  "identifier" : "connections_model:3170569-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "identifier" : "patch_input_ports_model:3170571-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "modelName" : "patch_input_ports_model",
+                                  "children" : [
+                                    {
+                                      "defaultValue" : {
+                                        "type" : 4,
+                                        "value" : false
+                                      },
+                                      "portTag" : 1,
+                                      "modelName" : "port_model",
+                                      "identifier" : "port_model:3170577-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                      "children" : [
+                                        {
+                                          "modelName" : "port_value_type_info_model",
+                                          "identifier" : "port_value_type_info_model:3170585-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                          "rawSubtype" : 1,
+                                          "type" : 4
+                                        },
+                                        {
+                                          "modelName" : "port_widget_style_info_model",
+                                          "widgetStyle" : 0,
+                                          "identifier" : "port_widget_style_info_model:3170587-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                        },
+                                        {
+                                          "hidden" : false,
+                                          "preferValueOverTitle" : false,
+                                          "gatekeeperName" : "",
+                                          "hiddenValue" : false,
+                                          "hiddenConnection" : false,
+                                          "identifier" : "port_metadata_model:3170589-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                          "isVariant" : true,
+                                          "modelName" : "port_metadata_model",
+                                          "isParameter" : false
+                                        }
+                                      ],
+                                      "name" : "Play"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "identifier" : "patch_output_ports_model:3170573-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "modelName" : "patch_output_ports_model",
+                                  "children" : [
+                                    {
+                                      "defaultValue" : {
+                                        "type" : 4,
+                                        "value" : false
+                                      },
+                                      "portTag" : 2,
+                                      "modelName" : "port_model",
+                                      "identifier" : "port_model:3170591-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                      "children" : [
+                                        {
+                                          "modelName" : "port_value_type_info_model",
+                                          "identifier" : "port_value_type_info_model:3170599-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                          "rawSubtype" : 1,
+                                          "type" : 4
+                                        },
+                                        {
+                                          "modelName" : "port_widget_style_info_model",
+                                          "widgetStyle" : 0,
+                                          "identifier" : "port_widget_style_info_model:3170601-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                        },
+                                        {
+                                          "hidden" : true,
+                                          "preferValueOverTitle" : false,
+                                          "gatekeeperName" : "",
+                                          "hiddenValue" : false,
+                                          "hiddenConnection" : true,
+                                          "identifier" : "port_metadata_model:3170603-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                          "isVariant" : true,
+                                          "modelName" : "port_metadata_model",
+                                          "isParameter" : false
+                                        }
+                                      ],
+                                      "name" : "Play"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "position" : [
+                                    0,
+                                    0
+                                  ],
+                                  "preferredGenericType" : 0,
+                                  "modelName" : "patch_metadata_model",
+                                  "identifier" : "patch_metadata_model:3170575-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "internalGroup" : false,
+                                  "hidden" : false
+                                }
+                              ],
+                              "name" : "Play"
+                            }
+                          ]
+                        },
+                        {
+                          "identifier" : "connections_model:3170493-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "connections_model",
+                          "children" : [
+                            {
+                              "fromPort" : "port_model:3170501-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "fromPatch" : "patch_model:3170489-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "modelName" : "connection_model",
+                              "toPatch" : "patch_model:3170525-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "identifier" : "connection_model:3170605-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "toPort" : "port_model:3170537-655fcbaf-e396-4226-8c13-f2aea874703d"
+                            },
+                            {
+                              "fromPort" : "port_model:3170551-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "fromPatch" : "patch_model:3170525-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "modelName" : "connection_model",
+                              "toPatch" : "patch_model:3170565-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "identifier" : "connection_model:3170607-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "toPort" : "port_model:3170577-655fcbaf-e396-4226-8c13-f2aea874703d"
+                            },
+                            {
+                              "fromPort" : "port_model:3170591-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "fromPatch" : "patch_model:3170565-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "modelName" : "connection_model",
+                              "toPatch" : "patch_model:3170489-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "identifier" : "connection_model:3170609-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "toPort" : "port_model:3170513-655fcbaf-e396-4226-8c13-f2aea874703d"
+                            }
+                          ]
+                        },
+                        {
+                          "identifier" : "patch_input_ports_model:3170495-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_input_ports_model",
+                          "children" : [
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 4975113150587342824,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170501-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "hidden" : true,
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : true,
+                                  "identifier" : "port_metadata_model:3170507-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : true,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : false
+                                },
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170509-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170511-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                }
+                              ],
+                              "name" : "Play"
+                            }
+                          ]
+                        },
+                        {
+                          "identifier" : "patch_output_ports_model:3170497-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_output_ports_model",
+                          "children" : [
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 4975113150587342824,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170513-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "hidden" : false,
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170519-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : true,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : false
+                                },
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170521-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170523-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                }
+                              ],
+                              "name" : "Play"
+                            }
+                          ]
+                        },
+                        {
+                          "position" : [
+                            -28,
+                            -4
+                          ],
+                          "preferredGenericType" : 0,
+                          "modelName" : "patch_metadata_model",
+                          "identifier" : "patch_metadata_model:3170499-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "internalGroup" : true,
+                          "hidden" : false
+                        }
+                      ],
+                      "name" : "Block Inputs"
+                    },
+                    {
+                      "children" : [
+                        {
+                          "modelName" : "patches_model",
+                          "identifier" : "patches_model:3170629-655fcbaf-e396-4226-8c13-f2aea874703d"
+                        },
+                        {
+                          "modelName" : "connections_model",
+                          "identifier" : "connections_model:3170631-655fcbaf-e396-4226-8c13-f2aea874703d"
+                        },
+                        {
+                          "identifier" : "patch_input_ports_model:3170633-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_input_ports_model",
+                          "children" : [
+                            {
+                              "defaultValue" : {
+                                "type" : 6,
+                                "value" : ""
+                              },
+                              "portTag" : 4,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170643-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170651-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 0,
+                                  "type" : 6
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170653-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : true,
+                                  "portName" : "audioSourcesIdentifiers",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170655-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : true
+                                }
+                              ],
+                              "name" : "Audio Sources Identifiers"
+                            },
+                            {
+                              "defaultValue" : {
+                                "type" : 6,
+                                "value" : ""
+                              },
+                              "portTag" : 2,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170657-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170665-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 0,
+                                  "type" : 6
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170667-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : true,
+                                  "portName" : "audioIdentifier",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170669-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : true
+                                }
+                              ],
+                              "name" : "Audio Identifier"
+                            },
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 3,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170671-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170679-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170681-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : false,
+                                  "portName" : "stop",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170683-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : false
+                                }
+                              ],
+                              "name" : "Reset"
+                            }
+                          ]
+                        },
+                        {
+                          "modelName" : "patch_output_ports_model",
+                          "identifier" : "patch_output_ports_model:3170635-655fcbaf-e396-4226-8c13-f2aea874703d"
+                        },
+                        {
+                          "hidden" : false,
+                          "position" : [
+                            164,
+                            92
+                          ],
+                          "children" : [
+                            {
+                              "excludeFromInsertMenu" : true,
+                              "modelName" : "patch_library_metadata_model",
+                              "identifier" : "patch_library_metadata_model:3170641-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "about" : "Stop the playback controller."
+                            }
+                          ],
+                          "internalGroup" : false,
+                          "identifier" : "patch_metadata_model:3170639-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_metadata_model",
+                          "preferredGenericType" : 0
+                        }
+                      ],
+                      "propertyIdentifier" : "playbackControllerStop",
+                      "prototype" : "builtin.playbackControllerStop",
+                      "identifier" : "patch_model:3170627-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "modelName" : "patch_model",
+                      "name" : "audio-PBC",
+                      "dataModelIdentifier" : "playback_controller_model:3169971-655fcbaf-e396-4226-8c13-f2aea874703d"
+                    },
+                    {
+                      "children" : [
+                        {
+                          "modelName" : "patches_model",
+                          "identifier" : "patches_model:3170687-655fcbaf-e396-4226-8c13-f2aea874703d"
+                        },
+                        {
+                          "modelName" : "connections_model",
+                          "identifier" : "connections_model:3170689-655fcbaf-e396-4226-8c13-f2aea874703d"
+                        },
+                        {
+                          "identifier" : "patch_input_ports_model:3170691-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_input_ports_model",
+                          "children" : [
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 1,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170701-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170709-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 0,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170711-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : false,
+                                  "portName" : "play",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170713-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : false
+                                }
+                              ],
+                              "name" : "Play"
+                            },
+                            {
+                              "defaultValue" : {
+                                "type" : 6,
+                                "value" : ""
+                              },
+                              "portTag" : 20,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170715-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170723-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 0,
+                                  "type" : 6
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170725-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : true,
+                                  "portName" : "audioIdentifier",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170727-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : true
+                                }
+                              ],
+                              "name" : "Audio Identifier"
+                            },
+                            {
+                              "defaultValue" : {
+                                "type" : 6,
+                                "value" : ""
+                              },
+                              "portTag" : 30,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3170729-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3170737-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 0,
+                                  "type" : 6
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3170739-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : true,
+                                  "portName" : "audioSourcesIdentifiers",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3170741-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "isVariant" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "isParameter" : true
+                                }
+                              ],
+                              "name" : "Audio Sources Identifiers"
+                            }
+                          ]
+                        },
+                        {
+                          "modelName" : "patch_output_ports_model",
+                          "identifier" : "patch_output_ports_model:3170693-655fcbaf-e396-4226-8c13-f2aea874703d"
+                        },
+                        {
+                          "hidden" : false,
+                          "position" : [
+                            332,
+                            -28
+                          ],
+                          "children" : [
+                            {
+                              "excludeFromInsertMenu" : true,
+                              "modelName" : "patch_library_metadata_model",
+                              "identifier" : "patch_library_metadata_model:3170699-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "about" : "Consumer Patch",
+                              "category" : "Audio"
+                            }
+                          ],
+                          "internalGroup" : false,
+                          "identifier" : "patch_metadata_model:3170697-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_metadata_model",
+                          "preferredGenericType" : 0
+                        }
+                      ],
+                      "propertyIdentifier" : "playbackControllerPlay",
+                      "prototype" : "builtin.playbackControllerPlayBoolean",
+                      "identifier" : "patch_model:3170685-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "modelName" : "patch_model",
+                      "name" : "audio-PBC",
+                      "dataModelIdentifier" : "playback_controller_model:3169971-655fcbaf-e396-4226-8c13-f2aea874703d"
+                    },
+                    {
+                      "modelName" : "patch_model",
+                      "prototype" : "builtin.toggle",
+                      "identifier" : "patch_model:3171493-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "children" : [
+                        {
+                          "modelName" : "patches_model",
+                          "identifier" : "patches_model:3171495-655fcbaf-e396-4226-8c13-f2aea874703d"
+                        },
+                        {
+                          "modelName" : "connections_model",
+                          "identifier" : "connections_model:3171497-655fcbaf-e396-4226-8c13-f2aea874703d"
+                        },
+                        {
+                          "identifier" : "patch_input_ports_model:3171499-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_input_ports_model",
+                          "children" : [
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 1,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3171509-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3171517-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3171519-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "portName" : "trigger",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3171521-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "about" : "A signal that turns the switch on or off depending on the current state.",
+                                  "isVariant" : false,
+                                  "isParameter" : false
+                                }
+                              ],
+                              "name" : "Flip"
+                            },
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 2,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3171523-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3171531-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3171533-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "portName" : "turnon",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3171535-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "about" : "A signal that turns the switch on. If the switch is already on, this has no effect.",
+                                  "isVariant" : false,
+                                  "isParameter" : false
+                                }
+                              ],
+                              "name" : "Turn On"
+                            },
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 3,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3171537-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3171545-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 1,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3171547-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "portName" : "turnoff",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3171549-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "about" : "A signal that turns the switch off. If the switch is already off, this has no effect.",
+                                  "isVariant" : false,
+                                  "isParameter" : false
+                                }
+                              ],
+                              "name" : "Turn Off"
+                            }
+                          ]
+                        },
+                        {
+                          "identifier" : "patch_output_ports_model:3171501-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_output_ports_model",
+                          "children" : [
+                            {
+                              "defaultValue" : {
+                                "type" : 4,
+                                "value" : false
+                              },
+                              "portTag" : 100,
+                              "modelName" : "port_model",
+                              "identifier" : "port_model:3171551-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "children" : [
+                                {
+                                  "modelName" : "port_value_type_info_model",
+                                  "identifier" : "port_value_type_info_model:3171559-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "rawSubtype" : 0,
+                                  "type" : 4
+                                },
+                                {
+                                  "modelName" : "port_widget_style_info_model",
+                                  "widgetStyle" : 0,
+                                  "identifier" : "port_widget_style_info_model:3171561-655fcbaf-e396-4226-8c13-f2aea874703d"
+                                },
+                                {
+                                  "hidden" : false,
+                                  "modelName" : "port_metadata_model",
+                                  "portName" : "state",
+                                  "preferValueOverTitle" : false,
+                                  "gatekeeperName" : "",
+                                  "hiddenValue" : false,
+                                  "hiddenConnection" : false,
+                                  "identifier" : "port_metadata_model:3171563-655fcbaf-e396-4226-8c13-f2aea874703d",
+                                  "about" : "A signal that's on or off. The default is off.",
+                                  "isVariant" : false,
+                                  "isParameter" : false
+                                }
+                              ],
+                              "name" : "On \/ Off"
+                            }
+                          ]
+                        },
+                        {
+                          "hidden" : false,
+                          "position" : [
+                            164,
+                            -52
+                          ],
+                          "children" : [
+                            {
+                              "excludeFromInsertMenu" : false,
+                              "modelName" : "patch_library_metadata_model",
+                              "identifier" : "patch_library_metadata_model:3171507-655fcbaf-e396-4226-8c13-f2aea874703d",
+                              "about" : "Use a pulse signal to turn a boolean signal on or off.",
+                              "category" : "Utility"
+                            }
+                          ],
+                          "internalGroup" : false,
+                          "identifier" : "patch_metadata_model:3171505-655fcbaf-e396-4226-8c13-f2aea874703d",
+                          "modelName" : "patch_metadata_model",
+                          "preferredGenericType" : 0
+                        }
+                      ],
+                      "name" : "Switch"
+                    }
+                  ]
+                },
+                {
+                  "identifier" : "connections_model:1161903-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+                  "modelName" : "connections_model",
+                  "children" : [
+                    {
+                      "fromPort" : "port_model:3170275-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "fromPatch" : "patch_model:3170189-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "modelName" : "connection_model",
+                      "toPatch" : "patch_model:3170489-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "identifier" : "connection_model:3170625-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "toPort" : "port_model:3170501-655fcbaf-e396-4226-8c13-f2aea874703d"
+                    },
+                    {
+                      "fromPort" : "port_model:3171551-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "fromPatch" : "patch_model:3171493-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "modelName" : "connection_model",
+                      "toPatch" : "patch_model:3170685-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "identifier" : "connection_model:3171567-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "toPort" : "port_model:3170701-655fcbaf-e396-4226-8c13-f2aea874703d"
+                    },
+                    {
+                      "fromPort" : "port_model:3170513-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "fromPatch" : "patch_model:3170489-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "modelName" : "connection_model",
+                      "toPatch" : "patch_model:3171493-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "identifier" : "connection_model:3174795-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "toPort" : "port_model:3171523-655fcbaf-e396-4226-8c13-f2aea874703d"
+                    },
+                    {
+                      "fromPort" : "port_model:3170513-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "fromPatch" : "patch_model:3170489-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "modelName" : "connection_model",
+                      "toPatch" : "patch_model:3170627-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "identifier" : "connection_model:3174797-655fcbaf-e396-4226-8c13-f2aea874703d",
+                      "toPort" : "port_model:3170671-655fcbaf-e396-4226-8c13-f2aea874703d"
+                    }
+                  ]
+                },
+                {
+                  "modelName" : "patch_input_ports_model",
+                  "identifier" : "patch_input_ports_model:1161905-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+                },
+                {
+                  "modelName" : "patch_output_ports_model",
+                  "identifier" : "patch_output_ports_model:1161907-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+                },
+                {
+                  "position" : [
+                    0,
+                    0
+                  ],
+                  "preferredGenericType" : 0,
+                  "modelName" : "patch_metadata_model",
+                  "identifier" : "patch_metadata_model:1161909-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+                  "internalGroup" : false,
+                  "hidden" : false
+                }
+              ],
+              "name" : "kRootPatchName"
+            }
+          ],
+          "valuesMap" : {
+            "port_model:1250235-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4" : {
+              "type" : 2,
+              "value" : [
+                0,
+                0,
+                0
+              ]
+            },
+            "port_model:1256427-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4" : {
+              "type" : 4,
+              "value" : false
+            },
+            "port_model:1250249-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4" : {
+              "type" : 6,
+              "value" : "block_port_model:1249849-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+            },
+            "port_model:171924-5399d8e9-d806-4fb3-9100-906d06f7a301" : {
+              "type" : 2,
+              "value" : [
+                0,
+                0,
+                0
+              ]
+            },
+            "port_model:3170233-655fcbaf-e396-4226-8c13-f2aea874703d" : {
+              "type" : 4,
+              "value" : false
+            },
+            "port_model:1256441-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4" : {
+              "type" : 6,
+              "value" : "block_port_model:1256041-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+            },
+            "port_model:3170205-655fcbaf-e396-4226-8c13-f2aea874703d" : {
+              "type" : 6,
+              "value" : "block_port_model:3169983-655fcbaf-e396-4226-8c13-f2aea874703d"
+            },
+            "port_model:104679-8db0c1c6-fe67-4247-ab89-e293936ab1bd" : {
+              "type" : 2,
+              "value" : [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "excludeFromPackage" : false,
+      "modelName" : "patch_editor_data_model",
+      "identifier" : "patch_editor_data_model:1069707-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "excludeDuringExport" : false
+    },
+    {
+      "modelName" : "patch_assets_model",
+      "identifier" : "patch_assets_model:1069709-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "render_passes_model",
+      "identifier" : "render_passes_model:1069711-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "shaders",
+      "identifier" : "shaders:1069713-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "identifier" : "scripts_model:1069715-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "modelName" : "scripts_model",
+      "children" : [
+        {
+          "modelName" : "script_bridging_variables_model",
+          "identifier" : "script_bridging_variables_model:1069717-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+        }
+      ]
+    },
+    {
+      "modelName" : "text_files_model",
+      "identifier" : "text_files_model:1069719-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "node_packages_model",
+      "identifier" : "node_packages_model:1069721-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "excludeFromPackage" : false,
+      "modelName" : "bundled_packages_model",
+      "identifier" : "bundled_packages_model:1069723-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "excludeDuringExport" : false
+    },
+    {
+      "modelName" : "internal_sounds_model",
+      "identifier" : "internal_sounds_model:1069725-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "globalSmartTextureTargetSizeLimit" : 0,
+      "globalSmartQuality" : 75,
+      "useDitheringForPvr" : false,
+      "pvrCompressionAccuracy" : 2,
+      "modelName" : "exportConfig",
+      "etcCompressionFormat" : 0,
+      "pvrSmartQuality" : 100,
+      "basicSmartTextureTargetSizeLimit" : 0,
+      "useSmartCompressionGlobally" : true,
+      "basicCompressionMethod" : 0,
+      "etcSmartTextureTargetSizeLimit" : 0,
+      "useDitheringForEtc" : false,
+      "basicCompressionAccuracy" : 2,
+      "etcSmartQuality" : 100,
+      "globalCompressionDefaultOn" : true,
+      "identifier" : "exportConfig:1069727-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "basicSmartQuality" : 100,
+      "pvrCompressionFormat" : 0,
+      "pvrSmartTextureTargetSizeLimit" : 0,
+      "basicCompressionFormat" : 0,
+      "etcCompressionAccuracy" : 2
+    },
+    {
+      "internalScriptingAPIExperimentalFaceDistortion" : false,
+      "effectUsesTextCaptions" : false,
+      "effectUsesDynamicExtrusion" : false,
+      "effectUsesExternalBlocks" : false,
+      "effectUsesFaceTracker" : false,
+      "effectUsesRenderPasses" : false,
+      "effectUsesCustomMaterialAndShaderCodeAsset" : false,
+      "effectUsesPersistence" : false,
+      "effectUsesCustomEngineSDK" : false,
+      "effectUsesVisualShadersSdf" : false,
+      "objectTrackerMaxObjects" : 1,
+      "ringTryOnMinVersion" : 1,
+      "effectUsesCameraControl" : false,
+      "dynamicTextAltitude" : false,
+      "effectDisablesAudioPreview" : false,
+      "effectUsesOpusCodec" : false,
+      "effectUsesToasterTracking" : false,
+      "effectUsesExternalVideo" : false,
+      "effectUsesVisualShaders" : false,
+      "effectUsesFaceDistortion" : false,
+      "effectUsesWorldMap" : false,
+      "effectUsesFacialGestureRecognition" : false,
+      "effectUsesEnvironmentTexturePatch" : false,
+      "audioEnableAudioGraphComponents" : false,
+      "worldTrackerMode" : 0,
+      "identifier" : "manifest:1069729-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "effectUsesLocalDiscovery" : false,
+      "bodyTrackingMinVersion" : 101,
+      "effectUsesFonts" : false,
+      "effectUsesNativeUIControlRawTextInput" : false,
+      "effectUsesShaderCode" : false,
+      "effectUsesOpticalFlow" : false,
+      "effectUsesNativeUIControl" : false,
+      "effectUsesNativeUIControlSliderTypeProgress" : false,
+      "effectUsesWeather" : false,
+      "effectUsesJsApiGetEffectSdkVersion" : false,
+      "touchGesturesSupportsPinch" : false,
+      "effectUsesHairSegmentation" : false,
+      "modelName" : "manifest",
+      "handTrackerMinVersion" : 3,
+      "effectUsesImageBasedLighting" : false,
+      "effectUsesRGBCameraTexture" : false,
+      "effectUsesScriptAnalytics" : false,
+      "effectUsesDspParametricEqualizer" : false,
+      "effectUsesMultipeer" : false,
+      "instructionFindFaceFrontCameraEnabled" : true,
+      "instructionFindHandFrontCameraEnabled" : true,
+      "internalScriptingAPIGlobalTransform" : false,
+      "effectUsesSegmentation" : false,
+      "effectUsesTwoDimensionalText" : false,
+      "effectUsesNetworking" : false,
+      "touchGesturesSupportsRawTouch" : false,
+      "effectUsesParticipant" : false,
+      "effectUsesControllers" : false,
+      "effectUsesComposedMaterial" : false,
+      "effectUsesFacialExpressionRecognition" : false,
+      "effectUsesAutomaticAlphaSort" : false,
+      "effectUsesInterEffectLinking" : false,
+      "effectUsesTargetRecognition" : false,
+      "effectUsesInternalScriptingAPI" : false,
+      "effectUsesPreviewCaptureOutputs" : false,
+      "geoanchorLatitudes" : [
+
+      ],
+      "effectUsesSkinSegmentation" : false,
+      "effectUsesFrameBrightness" : false,
+      "effectUsesJavascriptToPatchesBridging" : false,
+      "effectUsesAutomaticInstructions" : true,
+      "effectUsesMultipleRenderTargets" : false,
+      "effectUsesPeerVideoStream" : false,
+      "supportsLandscape" : false,
+      "effectUsesHalfFloatRenderPass" : false,
+      "effectUsesSupportedOrientations" : false,
+      "effectUsesScriptingDynamicInstantiation" : false,
+      "faceTrackerMinVersion" : 10,
+      "effectUsesShaderPicking" : false,
+      "internalScriptingAPIExperimentalCameraInfo" : false,
+      "segmentationMinVersion" : 2,
+      "effectUsesFingerTracking" : false,
+      "effectUsesCameraShare" : false,
+      "effectUsesObjectTracking" : false,
+      "effectDisablesMicrophone" : false,
+      "worldTrackerBackCameraEnabled" : true,
+      "effectUsesDate" : false,
+      "assistantIncludeInDevelopmentArtifacts" : false,
+      "effectUsesFaceTrackingScripting2D" : false,
+      "effectUsesWorldTrackerEnvironmentLight" : false,
+      "effectUsesBlocksDownloadable" : false,
+      "effectUsesDeviceMotion" : false,
+      "effectUsesFaceTracker3D" : false,
+      "effectUsesFaceWave" : false,
+      "effectUsesDeltaTime" : false,
+      "worldTrackerUsesFaceTracker" : false,
+      "touchGesturesSupportsRotate" : false,
+      "effectUsesDspModulator" : false,
+      "effectUsesDynamicText" : false,
+      "effectUsesPointTracking" : false,
+      "effectUsesDspCompressor" : false,
+      "effectUsesFaceTracker96" : false,
+      "effectUsesExternalVideoStream" : false,
+      "effectUsesRecognition" : false,
+      "effectUsesExternalMeshes" : false,
+      "effectUsesSyncScripting" : false,
+      "effectUsesSkinSmoothing" : false,
+      "effectUsesRemote3DModels" : false,
+      "effectUsesDSP" : false,
+      "effectUsesWorldTracker" : false,
+      "effectUsesFBA" : false,
+      "recognitionMinVersion" : 2,
+      "assistantAppIDs" : [
+        "2320137961422959"
+      ],
+      "effectUsesOverlayOutput" : false,
+      "effectUsesVariadicMath" : false,
+      "sceneDepthMinVersion" : 1,
+      "effectUsesBodyTracking2DKeyPoints" : false,
+      "effectUsesGenericML" : false,
+      "effectUsesNativeUIControlPickerTooltip" : false,
+      "effectUsesNativeUIControlSliderThumbTexture" : false,
+      "effectUsesWarpPreProcessor" : false,
+      "supportsWildcardDomainsWhitelisting" : false,
+      "effectUsesDspAudioAnalyzer" : false,
+      "effectUsesSvg" : false,
+      "effectUsesDspVocoder" : false,
+      "assistantQuickTestEnabled" : true,
+      "effectUsesWolf" : false,
+      "effectUsesPersonReconstruction" : false,
+      "effectUsesDynamicInstructions" : false,
+      "effectUsesBodyTracking" : false,
+      "effectUsesRemoteMaps" : false,
+      "effectUsesAudioTimestamps" : false,
+      "effectUsesAudio" : true,
+      "effectUsesFieldOfView" : false,
+      "effectUsesNetworkingScriptAPI" : false,
+      "touchGesturesSupportsTap" : false,
+      "effectUsesFormFactor" : false,
+      "effectUsesNativeUIControlPicker" : false,
+      "effectUsesWebPTexture" : false,
+      "worldTrackerFrontCameraEnabled" : true,
+      "effectUsesExternalMusicSelection" : false,
+      "effectUsesHapticFeedback" : false,
+      "effectUsesObjectCapture" : false,
+      "effectUsesBlocks" : true,
+      "effectUsesGeoanchor" : false,
+      "effectUsesMicrophone" : false,
+      "effectUsesSceneDepthWithFallback" : false,
+      "effectUsesSceneObjectTags" : false,
+      "effectUsesLayers" : false,
+      "effectUsesStaticTargetTracking" : false,
+      "targetRecognitionMinVersion" : 2,
+      "effectUsesIrisTracking" : false,
+      "instructionFindBodyFrontCameraEnabled" : true,
+      "effectUsesShadows" : false,
+      "effectUsesNativeUIControlSliderTypeColor" : false,
+      "cameraControlDefaultCameraFacing" : 0,
+      "effectUsesDspDistortion" : false,
+      "dynamicTextDate" : false,
+      "effectUsesDspBitCrusher" : false,
+      "effectUsesPBRMaterial" : false,
+      "effectUsesTextExtrusion" : false,
+      "dynamicTextWeather" : false,
+      "effectUsesSceneRenderPassResolutionAspectRatio" : false,
+      "effectUsesBoundingBoxUtilities" : false,
+      "effectUsesMultiplayer" : false,
+      "effectRecordingFromMic" : false,
+      "facewaveMinVersion" : 1,
+      "effectUsesStyleTransfer" : false,
+      "effectUsesSegmentationType" : false,
+      "effectUsesIdentity" : false,
+      "effectUsesLocation" : false,
+      "liveEffectSupportsNonLive" : false,
+      "effectUsesLocale" : false,
+      "effectUsesBlocksScripting" : false,
+      "effectUsesCallLayout" : false,
+      "effectForcesSynchronousScripting" : false,
+      "effectUsesDspDelay" : false,
+      "effectUsesPlatformTextures" : false,
+      "effectUsesWarpSmoothing" : true,
+      "effectUsesHandTracker" : false,
+      "sceneDepthWithFallbackMinVersion" : 1,
+      "effectUsesBoundingBoxScripting" : false,
+      "effectUsesWarpPostProcessor" : false,
+      "effectImageAntiAliasingEdgeThreshold" : 0.5,
+      "effectUsesGlslEs300Features" : false,
+      "effectUsesPortalPose" : false,
+      "effectUsesRecordedSignalsForSamplers" : false,
+      "externalTexturesWhitelistedDomains" : [
+
+      ],
+      "effectUsesLiveStreaming" : false,
+      "effectUsesIdTracker" : false,
+      "faceTrackerIsEnabled" : false,
+      "engineSDKVersion" : "135.0",
+      "internalScriptingAPIEventStream" : false,
+      "effectUsesPeerOutput" : false,
+      "internalScriptingAPIPrereleased" : false,
+      "instructionFindPersonBackCameraEnabled" : true,
+      "effectUsesTouchGestures" : false,
+      "effectUsesAssistant" : false,
+      "handTrackerMaxHands" : 2,
+      "assistantStorageEnabled" : true,
+      "effectUsesViperDebug" : false,
+      "effectUsesTextAssets" : false,
+      "touchGesturesSupportsPan" : false,
+      "audioEnableAudioTransformationsApi" : false,
+      "touchGesturesSupportsLongPress" : false,
+      "internalScriptingAPIDeprecatedParticles" : false,
+      "personalizationSpecialOccasion" : 0,
+      "effectUsesWorldTrackerJSAPI" : false,
+      "effectUsesCustomMaterial" : false,
+      "effectUsesMultipeerMessaging" : false,
+      "effectUsesRecognitionTracking" : false,
+      "additionalEnabledChanges" : [
+
+      ],
+      "effectUsesRotateVector" : false,
+      "effectUsesRealScaleEstimation" : false,
+      "effectUsesVertexTextureFetch" : false,
+      "effectImageAntiAliasingTechnique" : 0,
+      "instructionFindPersonFrontCameraEnabled" : true,
+      "effectUsesPointCloudVisualization" : false,
+      "effectHasAudioGraphApi" : false,
+      "effectUsesNativeUIControlPickerRemoteImages" : false,
+      "effectUsesMovingTargetTracking" : false,
+      "effectUsesDspReverb" : false,
+      "effectUsesDspEnergyMeter" : false,
+      "effectUsesFaceExtraction" : false,
+      "effectUsesComponentEvaluation" : true,
+      "effectUsesRealScaleEstimationWithFallback" : false,
+      "internalScriptingAPIDelay" : false,
+      "effectUsesSimpleSpatialSort" : false,
+      "effectUsesMultiAnchorTracking" : false,
+      "effectUsesRingTryOn" : false,
+      "effectUsesSceneDepth" : false,
+      "dynamicTextLocation" : false,
+      "effectUsesPlaneTrackerTrackTextureAPI" : false,
+      "effectUsesPageScopedIdentity" : false,
+      "effectUsesCustomFonts" : false,
+      "effectUsesDspDenoiser" : false,
+      "effectUsesGeoanchorAnywhere" : false,
+      "effectUsesDepthShaderRead" : false,
+      "effectUsesInstruction" : false,
+      "effectUsesPreciseLocation" : false,
+      "effectUsesMusic" : false,
+      "effectUsesImageAntiAliasing" : false,
+      "effectUsesLocationAirportData" : false,
+      "effectUsesPersistenceCaptureScope" : false,
+      "effectUsesDepth" : false,
+      "effectImageAntiAliasingEdgeSharpness" : 0.5,
+      "effectUsesAudioLegacyMicFork" : false,
+      "platformUsage" : {
+
+      },
+      "effectForceAsyncScripting" : false,
+      "effectUsesFaceExpressionFitting" : false,
+      "instructionFindBodyBackCameraEnabled" : true,
+      "effectUsesNativeUIControlEditableText" : false,
+      "effectUsesNativeNavigation" : false,
+      "effectUsesUnifiedTargetTracking" : false,
+      "effectUsesDirectionalLightEstimation" : false,
+      "faceTrackerMaxFaces" : 1,
+      "effectHasTriggeredAudio" : true,
+      "effectUsesAudioMixer" : false,
+      "effectUsesFaceTrueScale" : false,
+      "shaderPostProcessor" : false,
+      "effectUsesExternalFonts" : false,
+      "instructionFindHandBackCameraEnabled" : true,
+      "effectUsesPersonalization" : false,
+      "effectUsesGraphQL" : false,
+      "effectUsesJavaScriptShaders" : false,
+      "effectUsesGalleryPicker" : false,
+      "effectUsesHandGestureKeypoints" : false,
+      "effectUsesMultiplane" : false,
+      "effectUsesJavaScriptScripting" : false,
+      "effectUsesNativeUIControlSlider" : false,
+      "instructionFindFaceBackCameraEnabled" : true,
+      "effectUsesAnimationPlaybackController" : false,
+      "effectUsesCustomPipeline" : false,
+      "effectUsesExternalTextures" : false,
+      "hairSegmentationMinVersion" : 1,
+      "geoanchorLongitudes" : [
+
+      ],
+      "shaderPreProcessor" : false,
+      "effectUsesParticleSystem" : false,
+      "effectUsesWriteableSignalSource" : false,
+      "supportsPortrait" : true,
+      "effectUsesPersistenceSharedScope" : false,
+      "effectUsesInstantGame" : false,
+      "assistantUseWit" : false,
+      "effectUsesDepthData" : false,
+      "effectUsesDspPitchShifter" : false,
+      "effectUsesLandmarkAR" : false,
+      "multiclassSegmentationMinVersion" : 3004,
+      "effectHasAmbientAudio" : false,
+      "faceExpressionFittingMinVersion" : 3,
+      "effectUsesPlatformEvents" : false
+    },
+    {
+      "identifier" : "asset_attributions_model:1069731-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "modelName" : "asset_attributions_model",
+      "children" : [
+        {
+          "modelName" : "asset_attribution_model",
+          "licenseModelIdentifier" : "license_model:3169979-655fcbaf-e396-4226-8c13-f2aea874703d",
+          "assetModelIdentifier" : "sound:3169977-655fcbaf-e396-4226-8c13-f2aea874703d",
+          "identifier" : "asset_attribution_model:3169981-655fcbaf-e396-4226-8c13-f2aea874703d",
+          "assetTitle" : "Bell Check In 01",
+          "assetAuthor" : "Spark AR Assets",
+          "assetURLString" : ""
+        },
+        {
+          "modelName" : "asset_attribution_model",
+          "licenseModelIdentifier" : "license_model:3169979-655fcbaf-e396-4226-8c13-f2aea874703d",
+          "assetModelIdentifier" : "sound:619346-83a2781f-a3a3-4998-b6ec-3c2a2005bbc1",
+          "identifier" : "asset_attribution_model:619348-83a2781f-a3a3-4998-b6ec-3c2a2005bbc1",
+          "assetTitle" : "Computer Glitch 11",
+          "assetAuthor" : "Spark AR Assets",
+          "assetURLString" : ""
+        }
+      ]
+    },
+    {
+      "identifier" : "licenses_model:1069733-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "modelName" : "licenses_model",
+      "children" : [
+        {
+          "modelName" : "license_model",
+          "slug" : "License",
+          "identifier" : "license_model:3169979-655fcbaf-e396-4226-8c13-f2aea874703d",
+          "name" : "Sound Collection Terms",
+          "linkURLString" : "https:\/\/www.facebook.com\/sound\/collection\/terms"
+        }
+      ]
+    },
+    {
+      "identifier" : "playback_controllers_model:1069735-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "modelName" : "playback_controllers_model",
+      "children" : [
+        {
+          "needsContinuousLooping" : false,
+          "soundIdentifier" : "sound:619346-83a2781f-a3a3-4998-b6ec-3c2a2005bbc1",
+          "needsContinuousPlaying" : false,
+          "identifier" : "playback_controller_model:3169971-655fcbaf-e396-4226-8c13-f2aea874703d",
+          "loop" : false,
+          "modelName" : "playback_controller_model",
+          "name" : "audio-PBC"
+        }
+      ]
+    },
+    {
+      "modelName" : "block_documents_model",
+      "identifier" : "block_documents_model:1069737-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "target",
+      "targetUseCases" : [
+        "STORIES"
+      ],
+      "identifier" : "target:1069739-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "targetPlatforms" : [
+        "instagram",
+        "facebook"
+      ]
+    },
+    {
+      "modelName" : "block_instances_model",
+      "identifier" : "block_instances_model:1069741-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "vectorImages",
+      "identifier" : "vectorImages:1069743-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "identifier" : "sounds:1069745-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "modelName" : "sounds",
+      "children" : [
+        {
+          "excludeDuringExport" : false,
+          "excludeFromPackage" : false,
+          "isExternalAsset" : true,
+          "assetLocator" : "sounds\/arl_sfx_ComputerGlitch_os_11.m4a",
+          "duration" : 0,
+          "externalSourceLocator" : "sparkarstudio:\/\/arlibrary\/facebook\/audio\/1553243538151186",
+          "identifier" : "sound:619346-83a2781f-a3a3-4998-b6ec-3c2a2005bbc1",
+          "modelName" : "sound",
+          "name" : "arl_sfx_ComputerGlitch_os_11.m4a"
+        }
+      ]
+    },
+    {
+      "modelName" : "color_luts_data_model",
+      "identifier" : "color_luts_data_model:1069747-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "scripting_config_model",
+      "identifier" : "scripting_config_model:1069749-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4",
+      "forceStrictModeCompilation" : false,
+      "isStrictModeChangeable" : false
+    },
+    {
+      "modelName" : "assistant_model",
+      "identifier" : "assistant_model:1069751-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "form_factor_settings_model",
+      "identifier" : "form_factor_settings_model:1069753-4dbe88d2-4771-4c30-a0d9-1aafc742f6f4"
+    },
+    {
+      "modelName" : "landmark_assets_model",
+      "identifier" : "landmark_assets_model:2126412-f1f4833c-e605-4a05-9b90-a639e5652126"
+    }
+  ],
+  "measurementUnit" : 0,
+  "name" : "Effect"
+}
